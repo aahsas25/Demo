@@ -17,6 +17,10 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+<<<<<<< HEAD
         addObject(new ugly_lemur(), 200, 150);
+=======
+        addObject(new Butterfly(), 200, 200);
+>>>>>>> 8e34ce2e7a3a538e1f1a38ef2ed4e74d5aebd28a
     }
 }
